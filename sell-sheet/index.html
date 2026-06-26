@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- Riviera Web Studio sell sheet. EDIT the phone + web placeholders before sending. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Get Found on Google | Riviera Web Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--brand:#0c5ad1;--brand2:#0e7490;--dark:#0a2a5e;--ink:#16181e;--mut:#5b6472;--line:#e7eaef;
+--soft:#eaf1fc;--ok:#0f766e;--okbg:#e1f5ee;--bad:#9aa3b0;--badbg:#f1f3f6}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:var(--ink);background:#eef1f5;line-height:1.55}
+.sheet{max-width:830px;margin:24px auto;background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 30px 70px -40px rgba(10,30,60,.5)}
+h1,h2,h3,.brandname{font-family:Poppins,sans-serif;letter-spacing:-.02em}
+.pad{padding:34px 44px}
+/* top bar */
+.top{display:flex;justify-content:space-between;align-items:center;background:var(--dark);color:#fff;padding:18px 44px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .m{width:44px;height:44px;border-radius:11px;background:var(--brand);display:grid;place-items:center;font-family:Poppins;font-weight:800;font-size:24px}
+.brandname{font-weight:800;font-size:20px}
+.brand .tg{font-size:12.5px;color:#a9c3ee;font-weight:500}
+.topc{text-align:right;font-size:13px;color:#cdd9ef}
+.topc b{color:#fff;font-weight:700}
+/* hero */
+.hero{background:linear-gradient(160deg,var(--soft),#fff);border-bottom:1px solid var(--line)}
+.kick{color:var(--brand);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+.hero h1{font-size:38px;font-weight:800;margin:10px 0 12px;line-height:1.08;max-width:16ch}
+.hero h1 span{color:var(--brand)}
+.hero p{font-size:17px;color:var(--mut);max-width:60ch}
+/* compare */
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:6px}
+.gcard{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.gcard .hd{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:9px 14px}
+.gcard.b .hd{background:var(--badbg);color:#5b6472}
+.gcard.a .hd{background:var(--okbg);color:var(--ok)}
+.gbody{padding:14px}
+.photos{display:grid;grid-template-columns:2fr 1fr 1fr;gap:5px;margin-bottom:11px}
+.pt{height:54px;border-radius:7px;display:grid;place-items:center;color:#fff}
+.pt.x{background:var(--badbg);color:#aab1bb;font-size:11px;font-weight:600;grid-column:1/4;height:48px}
+.gname{font-weight:700;font-size:16px;font-family:Poppins}
+.stars{color:#BA7517;font-size:14px;letter-spacing:1px}
+.muted{color:var(--bad)}
+.lrow{display:flex;align-items:center;gap:9px;font-size:13.5px;padding:6px 0;border-top:1px solid var(--line)}
+.ic{width:20px;height:20px;flex:0 0 auto}
+.chip{display:inline-block;background:var(--soft);color:var(--dark);font-size:12px;font-weight:600;border-radius:20px;padding:4px 10px;margin:6px 4px 0 0}
+/* included */
+.inc{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;margin-top:8px}
+.li{display:flex;gap:11px;align-items:flex-start;font-size:15px}
+.li .ck{flex:0 0 auto;width:24px;height:24px;border-radius:50%;background:var(--okbg);display:grid;place-items:center;margin-top:1px}
+.li b{font-weight:700}.li span{color:var(--mut);font-size:13.5px;display:block}
+/* offer */
+.offer{background:linear-gradient(120deg,var(--dark),var(--brand));color:#fff;padding:30px 44px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.offer .ot{font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#bcd2f4}
+.offer .price{font-family:Poppins;font-size:40px;font-weight:800;line-height:1}
+.offer .price small{font-size:18px;font-weight:600;color:#cfe0f8}
+.offer .od{font-size:14.5px;color:#dde8fa;max-width:38ch;margin-top:6px}
+.cta{background:#fff;color:var(--dark);border-radius:12px;padding:18px 24px;text-align:center;min-width:230px}
+.cta .l{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--brand)}
+.cta .ph{font-family:Poppins;font-size:26px;font-weight:800;margin:4px 0}
+.cta .em{font-size:13.5px;color:var(--mut)}
+/* foot */
+.foot{padding:16px 44px;background:#0a2a5e;color:#aac1e6;font-size:12.5px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.why{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px}
+.wb{flex:1;min-width:200px;background:#f7f9fb;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.wb .n{font-family:Poppins;font-weight:800;color:var(--brand);font-size:26px}
+.wb .t{font-size:13.5px;color:var(--mut);margin-top:2px}
+@media(max-width:680px){.cmp,.inc{grid-template-columns:1fr}.pad{padding:26px 24px}.top,.offer,.foot{padding-left:24px;padding-right:24px}.hero h1{font-size:30px}}
+@media print{body{background:#fff}.sheet{box-shadow:none;margin:0;max-width:100%;border-radius:0}
+*{-webkit-print-color-adjust:exact;print-color-adjust:exact}@page{size:letter;margin:0}}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+ <div class="top">
+   <div class="brand"><div class="m">R</div><div><div class="brandname">Riviera Web Studio</div><div class="tg">Websites &amp; Google visibility for Santa Barbara businesses</div></div></div>
+   <div class="topc"><b>(805) 000-0000</b><br>1genepalmer@gmail.com</div>
+ </div>
+
+ <div class="hero pad">
+   <div class="kick">Local marketing that gets the phone ringing</div>
+   <h1>Get found on Google.<br><span>Win more local jobs.</span></h1>
+   <p>We build you a clean, modern website, then manage your Google Business Profile so you show up when neighbors search, with photos, reviews, and posts kept fresh every month.</p>
+ </div>
+
+ <div class="pad" style="padding-top:26px;padding-bottom:26px">
+   <div class="kick" style="margin-bottom:14px">The difference it makes on Google</div>
+   <div class="cmp">
+     <div class="gcard b">
+       <div class="hd">Before &mdash; most local businesses</div>
+       <div class="gbody">
+         <div class="photos"><div class="pt x">No photos</div></div>
+         <div class="gname">Your Business <span class="muted" style="font-weight:400;font-size:13px">&middot; Contractor</span></div>
+         <div style="font-size:13px" class="muted">4.6 &#9733; (12) &middot; reviews left unanswered</div>
+         <div class="lrow muted"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#aab1bb" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg> Hours not confirmed</div>
+         <div class="lrow muted"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#aab1bb" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg> No description or services</div>
+         <div class="lrow muted"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#aab1bb" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12h8"/></svg> No posts, no website link</div>
+       </div>
+     </div>
+     <div class="gcard a">
+       <div class="hd">After &mdash; managed by us</div>
+       <div class="gbody">
+         <div class="photos">
+           <div class="pt" style="background:#0c5ad1">Work</div><div class="pt" style="background:#0e7490">Team</div><div class="pt" style="background:#0f766e">Jobs</div>
+         </div>
+         <div class="gname">Your Business <span style="color:#5b6472;font-weight:400;font-size:13px">&middot; Contractor</span></div>
+         <div><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span style="font-size:13px;color:#5b6472">4.9 (25) &middot; replies managed</span></div>
+         <div class="lrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Photos &amp; weekly Google posts</div>
+         <div class="lrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Every review answered</div>
+         <div class="lrow"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg> Hours, services &amp; Q&amp;A complete</div>
+         <div><span class="chip">AC repair</span><span class="chip">Installation</span><span class="chip">Maintenance</span></div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="pad" style="padding-top:8px;padding-bottom:26px">
+   <div class="kick" style="margin-bottom:14px">What you get every month</div>
+   <div class="inc">
+     <div class="li"><div class="ck"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></div><div><b>Your website, hosted &amp; updated</b><span>A fast, modern, mobile-friendly site that makes you look established.</span></div></div>
+     <div class="li"><div class="ck"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></div><div><b>Google Business Profile managed</b><span>Optimized so you rank in the local map pack where the calls come from.</span></div></div>
+     <div class="li"><div class="ck"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></div><div><b>Fresh photos &amp; weekly posts</b><span>Signals to Google you're active, and keeps you in front of searchers.</span></div></div>
+     <div class="li"><div class="ck"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#0f766e" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></div><div><b>Reviews answered for you</b><span>Every review gets a professional reply that builds trust with new customers.</span></div></div>
+   </div>
+   <div class="why">
+     <div class="wb"><div class="n">80%+</div><div class="t">of local-service calls start with a Google search, not a website visit.</div></div>
+     <div class="wb"><div class="n">3&times;</div><div class="t">more clicks for complete profiles with photos and recent posts.</div></div>
+     <div class="wb"><div class="n">$0</div><div class="t">setup &mdash; the website is built and live before you pay anything.</div></div>
+   </div>
+ </div>
+
+ <div class="offer">
+   <div>
+     <div class="ot">Local Visibility plan</div>
+     <div class="price">$497<small>/month</small></div>
+     <div class="od">Website hosting + full Google Business Profile management. Simple month-to-month, cancel anytime.</div>
+   </div>
+   <div class="cta">
+     <div class="l">Ready to get found?</div>
+     <div class="ph">(805) 000-0000</div>
+     <div class="em">1genepalmer@gmail.com</div>
+   </div>
+ </div>
+
+ <div class="foot"><div>Riviera Web Studio &middot; Santa Barbara, CA</div><div>Websites &amp; Google visibility for local businesses</div></div>
+
+</div>
+</body>
+</html>
